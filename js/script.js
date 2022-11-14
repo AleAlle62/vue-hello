@@ -10,7 +10,7 @@ const app = new Vue ({
     el: '#root',
     //qui inserisco i dati
     data: {
-        primaClasse: 'stile', //questa è la creazione della classe assegnata al css
+        primaClasse: 'questa è la prima scritta in vue', //questa è la creazione della classe assegnata al css
         secondaClasse: 'https://static.fanpage.it/wp-content/uploads/sites/6/2021/07/coughing-cat-b.jpg' //questa è l'immagine
     }
     

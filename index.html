@@ -19,10 +19,13 @@
 </head>
 <body>
     <div id="root">
-        <!-- per il titolo  -->
-        <h1 v-bind:class="primaClasse">Questa è la prima cosa scritta con Vue</h1> 
+        <!-- due modi per scriverlo, uno dinamico e uno no  -->
+
+        <h1>{{primaClasse}}</h1>
+        <!-- <h1 v-bind:class="primaClasse">Questa è la prima cosa scritta con Vue</h1>  -->
+        
         <!-- per l'immagine -->
-        <img :src="secondaClasse" alt="">
+        <img v-bind:src="secondaClasse" alt="">
     </div>
 </body>
 </html>
